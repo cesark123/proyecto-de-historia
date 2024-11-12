@@ -29,7 +29,7 @@ body {
     border-radius: 8px;
   }
   
-  h1, h2 {
+  h1, h2, h3 {
     color: #333;
   }
   
@@ -44,4 +44,9 @@ body {
     list-style-type: none;
     padding: 0;
   }
-  
+
+  .imagenladoderecho, .event {
+    width: 100px; /* Ajusta el tamaño de la imagen según prefieras */
+    height: auto;
+    border-radius: 8px;
+  } 
