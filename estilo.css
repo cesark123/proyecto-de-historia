@@ -91,13 +91,13 @@ body {
       
       .tarjeta-etapa h3 {
         font-size: 1.5em;
-        color: #007BFF;
+        color: #000000;
         margin-bottom: 10px;
       }
       
       .tarjeta-etapa p {
         font-size: 1em;
-        color: #666;
+        color: #000000;
         line-height: 1.6;
       }
       .etapas-revolucion {
@@ -109,13 +109,13 @@ body {
       
       .etapas-revolucion h2 {
         font-size: 2em;
-        color: #333;
+        color: #000000;
         margin-bottom: 20px;
       }
       
       .tarjeta-etapa {
         background-color: #f5f5f5;
-        border: 1px solid #ddd;
+        border: 1px solid #efc393;
         border-radius: 8px;
         padding: 20px;
         margin-bottom: 15px;
@@ -152,4 +152,7 @@ body {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
       }
       
+      .tarjeta-etapa {
+        text-align: center;  
+      }
       
