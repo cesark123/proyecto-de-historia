@@ -21,12 +21,13 @@ body {
   }
 
 
-  .lista, .event{
-    width: 80%;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #e1eff7;
-    border-radius: 8px;
+  .lista {
+    list-style-type: decimal;
+  padding-left: 20px;
+  }
+
+  .lista li {
+    margin-bottom: 20px;
   }
   
   h1, h2, h3 {
@@ -45,8 +46,17 @@ body {
     padding: 0;
   }
 
-  .imagenladoderecho, .event {
-    width: 100px; /* Ajusta el tamaño de la imagen según prefieras */
+  .imagen_lado_derecho {
+    width: 200px; 
     height: auto;
     border-radius: 8px;
   } 
+
+  .contenido_1 {
+    display: flex;
+    align-items: center;
+    }
+    .contenido_1 p {
+        flex: 1;
+        margin-right: 10px;  
+    }
