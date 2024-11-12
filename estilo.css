@@ -124,13 +124,6 @@ body {
         position: relative;
       }
       
-      .tarjeta-etapa::before {
-        content: "•"; /* Símbolo de marcador */
-        position: absolute;
-        left: -20px;
-        font-size: 1.5em;
-        color: #007BFF; /* Color del marcador */
-      }
       
       .tarjeta-etapa h3 {
         font-size: 1.5em;
