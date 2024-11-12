@@ -18,6 +18,7 @@ body {
     padding: 10px;
     background-color: #e1eff7;
     border-radius: 8px;
+    text-align: center; 
   }
 
 
@@ -150,9 +151,5 @@ body {
         padding: 40px; /* Ajusta el padding para que el texto no esté pegado a los bordes */
         border-radius: 8px; /* Bordes redondeados para un efecto visual agradable */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
-      }
-      
-      .tarjeta-etapa {
-        text-align: center;  
       }
       
