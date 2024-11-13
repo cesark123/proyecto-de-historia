@@ -56,7 +56,8 @@ body {
   .contenido_1 {
     display: flex;
     align-items: center;
-    }
+    
+  }
     .contenido_1 p {
         width: 80%;
         margin: 20px auto;
@@ -65,7 +66,7 @@ body {
         border-radius: 8px;
         flex: 1;
         margin-right: 10px;  
-    }
+  }
 
     .etapas-revolucion {
         max-width: 800px;
