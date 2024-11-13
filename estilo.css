@@ -14,12 +14,12 @@ body {
   
   .introduccion, .event {
     width: 80%;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #e1eff7;
-    border-radius: 8px;
-    text-align: center; 
-  }
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #e1eff7 !important; /* Agrega !important temporalmente para verificar */
+  border-radius: 8px;
+  text-align: center;
+}
 
 
   .lista {
