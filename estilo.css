@@ -128,13 +128,13 @@ body {
       
       .tarjeta-etapa h3 {
         font-size: 1.5em;
-        color: #007BFF;
+        color: #826306; 
         margin-bottom: 10px;
       }
       
       .tarjeta-etapa p {
         font-size: 1em;
-        color: #666;
+        color: #000000;
         line-height: 1.6;
       }
 
@@ -152,4 +152,70 @@ body {
         border-radius: 8px; /* Bordes redondeados para un efecto visual agradable */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
       }
+      
+      .consecuencias-revolucion {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f8f8f8; /* Fondo suave */
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: left;
+      }
+      
+      .consecuencias-revolucion h2 {
+        font-size: 1.8em;
+        color: #333;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e1eff7; /* Línea decorativa debajo del título */
+        padding-bottom: 5px;
+      }
+      
+      .consecuencias-revolucion ol {
+        padding-left: 20px; /* Aumenta el espacio para los números */
+      }
+      
+      .consecuencias-revolucion li {
+        margin-bottom: 10px;
+        font-size: 1.1em;
+        color: #555;
+        line-height: 1.6;
+      }
+      
+      .consecuencias-revolucion li strong {
+        color: #000; /* Resalta el título en negrita de cada consecuencia */
+      }
+
+      .personajes-importantes ol {
+        list-style-type: none; /* Elimina el estilo de lista predeterminado */
+        padding-left: 0; /* Elimina el espacio izquierdo */
+      }
+      
+      .personajes-importantes li {
+        display: flex; /* Alinea la imagen y el texto en la misma línea */
+        align-items: flex-start; /* Alinea la imagen y el texto en la parte superior */
+        margin-bottom: 15px; /* Espacio entre cada elemento de la lista */
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #f8f8f8; /* Fondo de cada elemento */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+      }
+      
+      .foto-personaje {
+        width: 80px; /* Tamaño de la imagen, ajusta según lo que prefieras */
+        height: 80px; /* Mantiene la imagen cuadrada */
+        border-radius: 50%; /* Redondea la imagen para un efecto de avatar */
+        margin-right: 15px; /* Espacio entre la imagen y el texto */
+        object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarse */
+      }
+      
+      .info-personaje {
+        font-size: 1.1em;
+        color: #555;
+      }
+      
+      .info-personaje strong {
+        color: #000; /* Resalta el nombre del personaje */
+      }
+      
       
